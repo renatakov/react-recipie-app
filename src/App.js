@@ -1,6 +1,8 @@
+import Header from "./assets/Header/Header";
+
 const App = () => {
   return(
-    <h1>Recipie App</h1>
+    <Header/>
   )
 }
 

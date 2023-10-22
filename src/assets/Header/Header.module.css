@@ -1,0 +1,38 @@
+*{
+    font-family: "Inter", sans-serif;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header > img{
+    object-fit: fill;
+    max-width: 100%;
+}
+
+.header__list_select{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.header__btn_search,
+.header__btn_login{
+    align-self: center;
+    background: none;
+}
+
+.header__btn_login{
+    border: 2px solid #000;
+    border-radius: 2px;
+    padding: 5px 15px;
+}
